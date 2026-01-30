@@ -82,3 +82,13 @@ So, the final ideal flow will be:
 Note:
 > At last tsc is used to compile ur ts code into js code 
 > and node is used to finally run ur code
+
+
+Terminal 1 — TypeScript watch mode
+npx tsc --watch
+👉 what will this do?
+As soon as you will save a file with .ts extention
+TypeScript automatically compiles and dist/ will have .js file
+📌 That is:
+❌ dont need to run npx tsc again and again
+  Auto compile
