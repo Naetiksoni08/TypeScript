@@ -1,7 +1,10 @@
 import axios, { AxiosResponse } from "axios";
 
 
-// Basically, I was getting an error when I was importing xeo's response. The reason was thatExios is basically a functionality, while Exios response is basically a type which is present inside Exios only.So, when I was importing the first code, basically what was happening was that I was getting this error that I can not import a functionality as well as type both at the same time from one statement only. Now, the fix was simple: I went to my typescript, and my strict mode was true, which is verbity module syntax.
+// Basically, I was getting an error when I was importing xeo's response. The reason was thatExios is basically a 
+// functionality, while Exios response is basically a type which is present inside Exios only.So, when I was importing the first
+//  code, basically what was happening was that I was getting this error that I can not import a functionality as well as type both at the same time
+//  from one statement only. Now, the fix was simple: I went to my typescript, and my strict mode was true, which is verbity module syntax.
 //  It was true, and when I false it, then I stopped getting this error.But basically, the simple meaning of this
 //  error was that I cannot import a type as well as a functionality that is exios and a type is exiosResponse 
 // together, both at the same time. For example, if my verbatim module syntax is true, that means my TypeScript
